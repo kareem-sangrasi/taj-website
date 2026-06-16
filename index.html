@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taj Kisaan Raj</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <style>
+      .Section_top {
+        animation: change 30s infinite ease-in-out;
+      }
+
+      @keyframes change {
+  0% {
+    background-image: url('assets/img/image1.jpg');
+  }
+  20% {
+    background-image: url('assets/img/img5.jpg');
+  }
+  40% {
+    background-image: url('assets/img/img3.jpg');
+  }
+  60% {
+    background-image: url('assets/img/img4.jpg');
+  }
+  80% {
+    background-image: url('assets/img/img2.jpg');
+  }
+  100% {
+    background-image: url('assets/img/img1.jpg');
+  }
+}
+
+      .slider-track {
+        animation: scroll 20s linear infinite;
+        width: calc(250px * 12);
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(calc(-250px * 1));
+        }
+      }
+    </style>
+  </head>
+
+  <body class="m-0 p-0 font-sans">
+   
+    <div
+      class="bg-[#552582] text-white flex justify-between items-center px-12 py-3 flex-wrap"
+    >
+      <div class="flex gap-8 flex-wrap">
+        <span class="flex items-center gap-2">
+          <i class="fa-solid fa-sun"></i>
+          40.72°C
+        </span>
+
+        <span class="flex items-center gap-2">
+          <i class="fa-solid fa-envelope"></i>
+          tajkisankaraj@gmail.com
+        </span>
+
+        <span class="flex items-center gap-2">
+          <i class="fa-solid fa-location-dot"></i>
+          8-B, Industrial Estate, Multan - Pakistan
+        </span>
+      </div>
+
+      <div class="flex gap-5 cursor-pointer mt-2 lg:mt-0">
+        <a href="https://www.facebook.com/tajkissankaraj.sindh"
+          ><i class="fa-brands fa-facebook-f"> </i
+        ></a>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-tiktok"></i>
+      </div>
+    </div>
+
+    
+    <header
+      class="bg-white h-20 shadow flex justify-between items-center px-12 py-4 relative"
+    >
+     
+      <div class="z-50 mt-12 ml-10">
+        <img
+          src="assets/img/taj-logo.jpg"alt="Logo"
+          class="w-24 h-24 rounded-full object-cover"
+        />
+      </div>
+
+      <nav class="hidden lg:block">
+        <ul class="flex gap-10">
+          <li>
+            <a
+              href="#"
+              class="text-gray-800 text-lg hover:text-[#552582] transition"
+            >
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              class="text-gray-800 text-lg hover:text-[#552582] transition"
+            >
+              Products
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              class="text-gray-800 text-lg hover:text-[#552582] transition"
+            >
+              Crops
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              class="text-gray-800 text-lg hover:text-[#552582] transition"
+            >
+              Seed
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              class="text-gray-800 text-lg hover:text-[#552582] transition"
+            >
+              Quality Control
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              class="text-gray-800 text-lg hover:text-[#552582] transition"
+            >
+              Career
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              class="text-gray-800 text-lg hover:text-[#552582] transition"
+            >
+              Contact Us
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="text-3xl text-[#552582] cursor-pointer lg:hidden">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <section
+      class="Section_top w-full h-[78vh] bg-cover bg-center bg-no-repeat relative overflow-hidden flex items-center justify-center text-center"
+    >
+      <div class="uppercase"></div>
+    </section>
+
+    <section class="w-full mb-50 h-25 bg-white py-8 overflow-hidden">
+      <div class="relative">
+        <div class="slider-track flex items-center">
+          <div class="w-[250px] h-20 bg-transparent flex justify-center gap-5">
+            <img src="assets/img/1.png" alt="" />
+          </div>
+
+          <div class="w-[250px] h-20 bg-transparent flex justify-center">
+            <img src="assets/img/2.png" alt="" />
+          </div>
+
+          <div class="w-[250px] h-20 bg-transparent flex justify-center">
+            <img src="assets/img/3.png" alt="" />
+          </div>
+
+          <div
+            class="w-[250px] h-20 bg-transparent flex justify-center rounded-4xl"
+          >
+            <img src="assets/img/4.png" alt="" />
+          </div>
+
+          <div class="w-[250px] h-20 bg-transparent flex justify-center">
+            <img src="assets/img/5.png" alt="" />
+          </div>
+
+          <div class="w-[250px] h-20 bg-transparent flex justify-center">
+            <img src="assets/img/6.png" alt="" />
+          </div>
+
+
+          <div class="w-[250px] h-20 bg-transparent flex justify-center">
+            <img src="assets/img/7.png" alt="" />
+          </div>
+
+          <div class="w-[250px] h-20 bg-transparent flex justify-center">
+            <img src="assets/img/8.png" alt="" />
+          </div>
+
+          <div class="w-[250px] h-20 bg-transparent flex justify-center">
+            <img src="assets/img/9.png" alt="" />
+          </div>
+
+          <div class="w-[250px] h-20 bg-transparent flex justify-center">
+            <img src="assets/img/10.png" alt="" />
+          </div>
+
+          <div class="w-[250px] h-20 bg-transparent flex justify-center">
+            <img src="assets/img/11.png" alt="" />
+          </div>
+
+          <div class="w-[250px] h-20 bg-transparent flex justify-center">
+            <img src="assets/img/6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="screen h-[800px] bg-gray-100 flex">
+      <div class="w-1/2 bg-gray-100 h-[760px] p-4">
+        <h2 class="font-extrabold mt-5 ml-10 text-[#4f2f2f] text-xl">
+          Welcome to Taj Group
+        </h2>
+        <h1 class="text-4xl mt-5 ml-10 font-bold leading-tight text-[#552582]">
+          Taj Group <br />
+          Pakistan Premier <br />Agrochemical Company
+        </h1>
+        <button
+          class="bg-[#4f2f2f] mt-10 ml-10 text-white font-bold py-3 px-12 rounded-lg hover:bg-[#552582] hover:scale-105 transition-all duration-300 shadow-md"
+        >
+          About Us
+        </button>
+        <img class="mt-20 rounded" src="assets/img/golden.png" alt="" />
+      </div>
+      <div class="w-1/2 bg-gray-100 h-[760] p-4">
+        <p
+          class="space-y-4 text-slate-600 text-base leading-relaxed text-justify"
+        >
+          TAJ Group stands out as a premier agrochemical company in Pakistan,
+          recognized for its wide range of high-quality agricultural solutions.
+          We provide sustainable farming support through a structured approach
+          that evaluates our complete product portfolio against clearly defined
+          sustainability standards. This enables us to direct our strong
+          research and development efforts toward more innovative and
+          environmentally responsible solutions from the very beginning.
+        </p>
+        <br />
+        <p
+          class="space-y-4 text-slate-600 text-base leading-relaxed text-justify"
+        >
+          In doing so, we ensure that our advancements in crop protection,
+          vegetable seeds, and trait development deliver greater value to
+          farmers across the country. We continuously focus on sourcing and
+          introducing unique, high-quality agricultural chemicals from around
+          the world that add significant value to Pakistan’s agriculture sector.
+          Every product in our portfolio is carefully assessed for its role in
+          promoting sustainable agriculture. This reflects our commitment to
+          treating non-financial goals with the same importance as financial
+          performance.
+        </p>
+        <div class="flex gap-5 justify-center mt-10 p-10">
+          <!-- Card 1 -->
+          <div
+            class="bg-[#552582] mr-auto  w-[270px] h-[250px] rounded-md p-5 text-white"
+          >
+            <img src="assets/img/icon-removebg-preview.png" alt="icon" class="w-10 h-15 mt-7 invert">
+
+
+            <div class="flex items-start flex">
+              <h1 class="text-5xl mt-5 font-bold">1,200</h1>
+              <span class="text-orange-400 text-5xl font-bold ml-8 ">+</span>
+            </div>
+
+            <p class="text-2xl">Field Team</p>
+          </div>
+
+         
+           
+            <div
+            class="bg-[#552582] ml-auto mb-auto  w-[270px] h-[250px] rounded-md p-5 text-white"
+          >
+            <img src="assets/img/icon1-removebg-preview.png" alt="icon" class="w-20 h-15 mt-7 invert">
+
+
+            <div class="flex items-start">
+              <h1 class="text-5xl mt-5 font-bold">6,000</h1>
+              <span class="text-orange-400 text-5xl font-bold ml-8 ">+</span>
+            </div>
+
+            <p class="text-2xl">Loyal Business Partners</p>
+          </div>
+ </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+<section class="bg-white py-12 px-6 md:px-12 lg:px-20 max-w-[1400px] mx-auto font-sans overflow-hidden flex">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center flex">
+    
+    <div class="lg:col-span-7 space-y-5 pr-0 lg:pr-8">
+      <span class="text-[#4f2f2f] font-bold text-lg block tracking-wide">
+        Our Product Strength
+      </span>
+      
+      <h2 class="text-4xl md:text-5xl lg:text-[50px] font-black text-[#552582] tracking-tight leading-none pb-2">
+        Dhawa Gold Product
+      </h2>
+      
+      <div class="space-y-5 text-[#4a4a4a] text-base md:text-[17px] leading-[1.6] font-normal">
+        <p class="test-justify leading-7">
+            Complete control of sugarcane borers vigorous crop growth and the confidence of higher yields only with Dhawa Gold. Powered by an advanced and highly effective formulation, Dhawa Gold provides strong protection against damaging sugarcane borers, helping your crop stay healthy, vigorous, and productive throughout the season. Trusted by farmers for reliable performance, stronger plant development, improved crop quality, and maximum profitability, Dhawa Gold is the smart choice for successful sugarcane cultivation.
+        </p>
+        
+      </div>
+      
+      <button
+          class="bg-[#4f2f2f] mt-10  text-white font-bold py-3 px-12 rounded-lg hover:bg-[#552582] hover:scale-105 transition-all duration-300 shadow-md"
+        >
+          Know More
+        </button>
+    </div>
+
+        <div class=" relative mt-20 mr-20 justify-center lg:justify-start items-center w-[520px]  h-full pt-12 lg:pt-0  flex">    
+      <div class="absolute  top-0 right-[0px] lg:right-[30px] w-[80%] h-[75%] bg-[#552582] rounded-md z-10"></div>      
+        <img 
+          src="assets/img/dawah1.png"
+          alt="" 
+          class=" absolute rounded w-[420px] h-[70%] mt-10 z-10 flex"
+        />     
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-gray-100 py-12 px-6 md:px-12 lg:px-20 max-w-[1400px] mx-auto font-sans overflow-hidden flex">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center flex">
+    
+        
+
+        <div class=" relative mt-20 mr-20 justify-center lg:justify-start items-center w-[520px]  h-full pt-12 lg:pt-0  flex">    
+      <div class="absolute  top-0 right-[0px] lg:right-[140px] w-[80%] h-[75%] bg-[#4f2f2f] rounded-md z-10"></div>      
+        <img 
+          src="assets/img/only-mira.png" 
+          alt=""
+          class=" absolute rounded w-[420px] h-[70%] mt-10 ml-10 z-10 flex"
+        />
+    </div>
+  </div>
+  <div class="lg:col-span-7 space-y-5 pr-0 lg:pr-8">
+      <span class="text-[#4f2f2f] font-bold text-lg block tracking-wide">
+        Our Key Assets
+      </span>
+      
+      <h2 class="text-4xl md:text-5xl lg:text-[50px] font-black text-[#552582] tracking-tight leading-none pb-2">
+        Green Mira Product
+      </h2>
+      
+      <div class="space-y-5 text-[#4a4a4a] text-base md:text-[17px] leading-[1.6] font-normal">
+        <p class="test-justify leading-7 w-[500px]">
+           Green Mira The Crop Protection Vaccine for Stronger Growth and Better Yields. Green Mira helps safeguard your crops before stress strikes, providing advanced protection against disease pressure and extreme heat conditions. By supporting plant health and vitality, it helps reduce flower and fruit drop, promotes stronger flowering and fruit setting, and enables crops to maintain their productivity even under challenging environmental conditions. With Green Mira, your crop stays healthier, more resilient, and better prepared for a successful harvest.
+        </p>
+        
+      </div>
+      
+      <button
+          class=" mt-10 bg-[#4f2f2f] text-white font-bold py-3 px-12 rounded-lg hover:bg-[#552582] hover:scale-105 transition-all duration-300 shadow-md"
+        >
+          Know More
+        </button>
+    </div> 
+</section>
+
+
+<section class="bg-white py-12 px-6 md:px-12 lg:px-20 max-w-[1400px] mx-auto font-sans overflow-hidden flex">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center flex">
+    
+    <!-- Left Text Column (Takes 7 Cols for spacious text feel) -->
+    <div class="lg:col-span-7 space-y-5 pr-0 lg:pr-8">
+      <span class="text-[#4f2f2f] font-bold text-lg block tracking-wide">
+        Our Specialization
+      </span>
+      
+      <h2 class="text-4xl md:text-5xl lg:text-[50px] font-black text-[#552582] tracking-tight leading-none pb-2">
+        Research Innovation and Production
+      </h2>
+      
+      <div class="space-y-5 text-[#4a4a4a] text-base md:text-[17px] leading-[1.6] font-normal">
+        <p class="test-justify leading-7">
+            Taj Company is committed to the principles of research, innovation, and quality production. Our expert team continuously works to develop effective and advanced agricultural solutions by addressing modern farming challenges and the evolving needs of growers. Through continuous research and the use of advanced technology, we introduce products that help improve crop health, yield, and overall quality. Our state-of-the-art production facilities and strict quality control systems ensure that every product meets high standards of reliability and performance. This dedication to excellence makes Taj a trusted and progressive name in the agricultural industry.
+        </p>
+      </div>  
+      <button
+          class="bg-[#4f2f2f] mt-10  text-white font-bold py-3 px-12 rounded-lg hover:bg-[#552582] hover:scale-105 transition-all duration-300 shadow-md"
+        >
+          Click Here
+        </button>
+    </div>
+        <div class=" relative mt-20 mr-20 justify-center lg:justify-start items-center w-[520px]  h-full pt-12 lg:pt-0  flex">    
+      <div class="absolute  top-0 right-[0px] lg:right-[30px] w-[80%] h-[75%] bg-[#552582] rounded-md z-10"></div>      
+        <img 
+          src="assets/img/scientific-taj.webp" 
+          alt="" 
+          class=" absolute rounded w-[420px] h-[70%] mt-10 z-10 flex"
+        />     
+    </div>
+  </div>
+</section>
+  </body>
+</html>
